@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Umbrella',
       home: HomePage(),
       debugShowCheckedModeBanner: false,
     );
@@ -20,7 +20,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Flutter Demo"),
+        title: Text("Umbrella"),
       ),
       drawer: Drawer(
         child: ListView(
@@ -55,7 +55,7 @@ class HomePage extends StatelessWidget {
       ),
       body: Center(
         child: Text(
-          'Welcome to Flutter Demo!',
+          'Welcome to Umbrella Family',
           style: TextStyle(fontSize: 18),
         ),
       ),
